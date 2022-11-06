@@ -47,7 +47,7 @@ mongourl = 'mongodb+srv://root:1leHK3T7MoPQDEUm@cluster0.k2cncza.mongodb.net/?re
 client = pymongo.MongoClient(mongourl,serverSelectionTimeoutMS=5000)
 maindb = client.bot['main']
 
-antidb = redis.Redis(host='redis-19489.c9.us-east-1-2.ec2.cloud.redislabs.com', port=19489, password='Zb2RawbHx5eIadRmFvJUL4xSQAmPVv2P)
+antidb = redis.Redis(host='redis-19489.c9.us-east-1-2.ec2.cloud.redislabs.com', port=19489, password='Zb2RawbHx5eIadRmFvJUL4xSQAmPVv2P')
 
 BOT_USERNAME = '@killuachecker_bot'
 loggp = -833549479
